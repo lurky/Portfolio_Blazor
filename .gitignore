@@ -2,8 +2,5 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/bin/Debug/net8.0
+/.vs
 /obj
-/.vs/Portfolio_Blazor/FileContentIndex
-/.vs/Portfolio_Blazor/v17
-/.vs/Portfolio_Blazor/config
