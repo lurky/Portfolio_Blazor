@@ -24,12 +24,6 @@ namespace Portfolio_Blazor
         public DbSet<Project> Projects { get; set; }
         public DbSet<Technology> Technologies { get; set; }
 
-        // Inject options.
-        // options: The DbContextOptions{ContactContext} for the context.
-        public DataContext(DbContextOptions<DataContext> options)
-            : base(options) =>
-            Debug.WriteLine($"{ContextId} context created.");
-
         // Define the model.
         // modelBuilder: The ModelBuilder.
         protected override void OnModelCreating(ModelBuilder modelBuilder)
