@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using Portfolio_Blazorv2;
-using Portfolio_Blazorv2.Components;
+using Portfolio_Blazor;
+using Portfolio_Blazor.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 

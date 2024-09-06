@@ -1,4 +1,4 @@
-﻿namespace Portfolio_Blazorv2
+﻿namespace Portfolio_Blazor
 {
     public class Project
     {

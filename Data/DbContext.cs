@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
-namespace Portfolio_Blazorv2
+namespace Portfolio_Blazor
 {
 
     public class DataContext : DbContext
